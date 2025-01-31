@@ -81,6 +81,50 @@
         border: 0;
         height: 1.2px;
        }
+       .grey{
+        color: grey;
+         }
+         .secondSection .box{
+            background-color: white;
+            width:80vw;
+            height:2px;
+            margin:56px 0;
+            display: flex;
+         }
+         .secondSection .vertical{
+            height:93px ;
+            width:1px;
+            background-color:white ;
+            margin:0 120px;
+         }
+         .image-top{
+            width: 40px;
+            position: relative;
+            top: -42px;
+            left: -9px;
+         }
+         .vertical-title{
+            position: relative;
+            top: 75px;
+            width: 150px;
+
+         }
+         .vertical-desc{
+         position: relative;
+         top: 86px;
+         color: gray;
+         width: 200px;
+         font-size: 15px;
+         }
+         footer{
+            background-color: rgb(129, 44, 129);
+            height: 402px;
+         }
+         .footer{
+            display: flex;
+            padding:23px 122px;
+            justify-content: space-evenly;
+         }
     </style>
 </head>
 
@@ -90,11 +134,11 @@
             <div class="left">Saurabh's portfolio</div>
             <div class="right">
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/">About</a></li>
-                    <li><a href="/">Services</a></li>
-                    <li><a href="/">Projects</a></li>
-                    <li><a href="/">Contact me</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contacts.html">Contact me</a></li>
                 </ul>
             </div>
         </nav>
@@ -112,10 +156,51 @@
         </section>
         <hr>
         <section class="secondSection">
+            <span class="grey">what I have done so far</span>
             <h1>Work Experience</h1>
+            <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="sau.png" alt="">
+            <div class="vertical-title">
+                Web Developer (2024-2025)
+            </div>
+            <div class="vertical-desc">
+                Developed and maintained websites for my personal uses, ensuring responsive design and optimal performance. Collaborated with design teams to create user-friendly interfaces and improve user experience. Utilized technologies such as HTML, CSS, 
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="java.png" alt="">
+            <div class="vertical-title">
+                Java Developer (2024-2025)
+            </div>
+            <div class="vertical-desc">
+                Learned Java and applied it to solve various data structures and algorithms (DSA) problems. Focused on enhancing problem-solving skills and understanding of core Java concepts. Practiced implementing different algorithms and data structures to improve efficiency 
+            </div>
+          </div>
+         
+          
+          
+            </div>
         </section>
         
     </main>
+    <footer>
+        <div class="footer">
+            <div class="first">
+                <!-- <h2>Follow me</h2> -->
+            </div>
+            <div class="second">
+          <!-- <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>contact</li>
+            </ul>
+          </ul> -->
+            </div>
+            <div class="third"></div>
+            <div class="fourth"></div>
+        </div>
+    </footer>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
        
