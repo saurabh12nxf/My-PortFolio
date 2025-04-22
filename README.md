@@ -20,7 +20,7 @@ A project that simulates traffic light behavior using JavaScript, HTML, and CSS.
 
 ## Contact
 
-Feel free to reach out to me via email at [your-email@example.com](mailto:saurabhsingh050806@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/saurabh-singh-rajput-1696292ab/).
+Feel free to reach out to me via email at (mailto:saurabhsingh050806@gmail.com) or connect with me on (https://www.linkedin.com/in/saurabh-singh-rajput-1696292ab/).
 
 Thank you for visiting my portfolio!
 
